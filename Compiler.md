@@ -24,7 +24,9 @@
 ### 1.1.5. Giai đoạn thực thi (Loader)
 - File chạy cuối cùng sẽ được nạp lên RAM và thực thi bởi CPU
 #### 1.1.5.1. Cú pháp sử dụng để mixflile và build nhiều file:
+'''
 - gcc -c main.c -o main.o
 - gcc -c test.c -o main.o 
 - gcc main.o test.o -o main.o
 - ./main
+'''

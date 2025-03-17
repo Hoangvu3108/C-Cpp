@@ -1,4 +1,6 @@
 # 1. The compilation process of Compiler 
+<details><summary>Chi tiết</summary>
+<p>
 ## 1.1. Quá trình biên dịch một chương trình C/C++
 - Quá trình dịch là quá trình chuyển đổi từ ngôn ngữ bậc cao sang ngôn ngữ máy,đảm bảo máy tính có thể thể hiểu và thực thi ngôn ngữ của máy tính.
 - Quá trình đó được chia thành 4 giai đoạn:
@@ -157,3 +159,6 @@ int main() {
     return 0;
 }
 ```
+
+</p>
+</details>

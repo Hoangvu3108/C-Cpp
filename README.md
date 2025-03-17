@@ -9,7 +9,10 @@
 - Giai đoạn dịch asembly sang ngôn ngữ máy (Asembler) 
 - Giai đoạn liên kết (Linker)
 
-![Example](h1.png)
+
+<p align="center">
+  <img src="images/h1.png" alt="Compiler Macro" width="600">
+</p>
 ### 1.1.1. Giai đoạn tiền xử lý (Preprocessor)
 - Giai đoạn này sẽ nhận mã nguồn và xóa bỏ tất cả mọi chú thích, comment của chương trình , xử lý các chỉ thị tiền xử lý. 
 **Ví dụ:** #ifndef, #include, #define

@@ -1,6 +1,7 @@
 # 1. The compilation process of Compiler 
 <details><summary>Chi tiết</summary>
 <p>
+  
 ## 1.1. Quá trình biên dịch một chương trình C/C++
 - Quá trình dịch là quá trình chuyển đổi từ ngôn ngữ bậc cao sang ngôn ngữ máy,đảm bảo máy tính có thể thể hiểu và thực thi ngôn ngữ của máy tính.
 - Quá trình đó được chia thành 4 giai đoạn:
@@ -29,7 +30,8 @@
 ### 1.1.5. Giai đoạn thực thi (Loader)
 - File chạy cuối cùng sẽ được nạp lên RAM và thực thi bởi CPU
 #### 1.1.5.1. Cú pháp sử dụng để mixflile và build nhiều file:
-```bash
+
+```c
      gcc -c main.c -o main.o
      gcc -c test.c -o main.o 
      gcc main.o test.o -o main.o

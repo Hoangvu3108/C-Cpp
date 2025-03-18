@@ -27,7 +27,7 @@
 ```bash
      gcc -c main.c -o main.o
      gcc -c test.c -o main.o 
-     gcc main.o test.o -o main.o
+     gcc main.o test.o -o main
      ./main
 ```
 

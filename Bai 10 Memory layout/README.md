@@ -278,4 +278,5 @@ Quyền truy cập : đọc và ghi, nghĩa là có thể độc và thay đổi
 Những biến khai báo ở hàm thì nó sẽ được lưu vào phân vùng stack chứ nó không nằm trong phân vùng text nên nó có thể thay đổi được giá trị.
 
 Hằng số const ở phạm vi toàn cục, trình biên dịch sẽ lưu nó phân vùng bộ nhớ Read Only Data đây là vùng chỉ độc . Khi cố gắng thay đổi giá trị của global_const thông qua con trỏ, hệ điều hành sẽ phát hiện và gây gỗi Segmentation Fault do vi phạm quyền truy cập bộ nhớ. 
+
 **Câu 2:** Sự khác nhau của Malloc, calloc,realloc ?

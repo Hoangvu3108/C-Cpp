@@ -281,5 +281,5 @@ Hằng số const ở phạm vi toàn cục, trình biên dịch sẽ lưu nó p
 
 **Câu 2:** Sự khác nhau của Malloc, calloc,realloc ?
 
-**Câu 3: ** Liệu rằng có thể sử dụng hàm realloc() để giải phóng bô nhớ không ?
+**Câu 3:** Liệu rằng có thể sử dụng hàm realloc() để giải phóng bô nhớ không ?
 - Không, ta không thể sử dụng realloc để trực tiếp để giải phóng bộ nhớ. Với chức năng chính của ```realloc``` là thay đổi kích thước của vùng nhớ đã được cấp phát, không phải giải phóng nó và để giải phóng bộ nhớ bạn dùng hàm ```free```.

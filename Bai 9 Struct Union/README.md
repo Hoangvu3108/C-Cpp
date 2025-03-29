@@ -65,6 +65,7 @@ struct Example1 {
 };
 ```
 ![alt text](image.png)
+
 Ở đây ta sẽ in kiểu ra liệu uint8_t arr1[5] thành 
 Uint8_t arr1_1;
 Uint8_t arr1_2;

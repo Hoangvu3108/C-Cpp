@@ -95,11 +95,11 @@ int main()
 }
 ```
 **Kết quả**
-**Ví dụ**
 ```c
 Size of Union Data: 4 bytes 
 ```
 ![alt text](image-1.png)
+
  **Ví dụ**
  ```c
  #include<stdio.h>

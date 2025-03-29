@@ -34,7 +34,7 @@ Padding là thêm những byte trống giữa các thành phần để cho nhữ
 
 ![image](1.png)
 
-**Ví dụ 1**
+**Ví dụ**
 ```c
 #include <stdio.h>
 #include<stdint.h>
@@ -55,7 +55,9 @@ int main() {
 Size of struct Example: 8 bytes
 ```
 Mỗi lần sẽ được cấp ô phát 4 byte do kiểu dữ liệu unit32_t là kiểu dữ lớn nhất trong struct. 4 ô nhớ đầu tiên cấp phát sẽ được cấp phát cho kiểu uint8_t (1 byte) và uint16_t(2 byte) và có 1 padding, và kiểu uint 32_t sẽ được cấp phát 4 byte .
-**Ví dụ 2**
+
+**Ví dụ**
+
 ```c
 
 struct Example1 {

@@ -65,12 +65,17 @@ struct Example1 {
 };
 ```
 ![alt text](image.png)
+
+
+
 Ở đây ta sẽ in kiểu ra liệu uint8_t arr1[5] thành 
+```c
 Uint8_t arr1_1;
 Uint8_t arr1_2;
 Uint8_t arr1_3;
 Uint8_t arr1_4;
 uint8_t arr1_5;
+```
 tương tự làm với các biến kia thì ta sẽ tốn ```24 byte```.
 ## Union
 Union là kiểu dũ liệu người dùng tự định nghĩa tương tự như struct. Khi khai báo một union, các thành phần của nó sẽ được lưu trữ tại cùng một địa chỉ bộ nhớ, nghĩa là chúng sẽ ghi đè lên nhau.

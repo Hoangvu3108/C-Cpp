@@ -1,8 +1,7 @@
-vòng lặp for cải tiến 
-size_t tính kích thước 
+
 # Standard template library
 Standard Template Library là một thưc viện trong ngôn ngữ lập trình C++ cung cấp một tập hợp các template classesa và functions để thực hiện nhiều loại cấu trúc dữ liệu vafcacs thuật toán phổ biến.
-Một số thành phần chính của STLL
+Một số thành phần chính của STL:
 - Container
 - Iterator
 - Algorithms

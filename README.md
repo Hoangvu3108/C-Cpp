@@ -174,9 +174,11 @@ int main() {
 
 </p>
 </details>
+
 # LESSON 2: STDARG-ASSERT
 <details><summary>Chi tiết</summary>
 <p>
+  
 #  STDARG - ASSERT
 1. Thư viện STDARG
 Bình thường nếu tính tổng số 2 thì có một hàm, tổng 3 số thì có một hàm nữa, tuy nhiên cần tính tổng nhiều số thì làm như thế nào thì cần có thư viện stdarg. 
